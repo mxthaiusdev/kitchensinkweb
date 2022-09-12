@@ -1,0 +1,12 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "github>sanity-io/renovate-presets//ecosystem/auto"
+  ],
+  "packageRules": [
+    {
+      "matchPaths": ["template/studio/**"],
+      "extends": ["github>sanity-io/renovate-presets//ecosystem/studio-v2"]
+    }
+  ]
+}
